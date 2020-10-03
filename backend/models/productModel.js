@@ -1,4 +1,4 @@
-import mongoose, { mongo } from 'mongoose';
+import mongoose from 'mongoose';
 import { stringify } from 'querystring';
 
 const reviewSchema = mongoose.Schema(
