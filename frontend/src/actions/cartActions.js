@@ -1,5 +1,4 @@
 import axios from 'axios';
-import Loader from '../components/Loader';
 import { CART_ADD_ITEM } from '../constants/cartConstants';
 
 export const addToCart = (id, qty) => async (dispatch, getState) => {
